@@ -1,0 +1,68 @@
+LINUX COMMANDS
+
+1. pwd -> present working directory
+2. ls ->  List of Files and Folder
+ -->>> ls-a -> List of files and folders(hidden)
+3. clear -> clear the entire screen 
+4. cd .. -> one step back
+5. cd  -> change Dir
+6. cd --  -> Parent Folder(default folder)
+7. mkdir -> Create Dir
+8. touch gedit cat vi ==>> touch file1.txt
+
+    touch --> create a file(.txt,.html,.java)
+    gedit -->  Edit the file
+    nano --> 
+    cat --> Read the file data
+     vi --> Write and Read  
+9. echo   ->  push Data to  file or folder
+ ==>> echo "Dhyanahita.org" > file1.txt
+Books
+urls : https://sites.google.com/view/gitam-skill-enhancement-july
+--> mkdir git
+-->cd data.txt
+1.  $ git init
+2. ls -a
+3. git status
+4. git add data.txt
+5. git config --global user.email 'rrakeshreddy96@gmail.com'
+6. git config --global user.name 'RakeshReddy'
+7. git config user.name --> Display the name
+8. git commit -m 'First Commit'
+9. cd /E --> change the directory
+
+
+modified
+echo "Line 3">> data.txt
+git commit -m 'Second Commit'
+git status
+
+git log --> show the list of commit -->it will show the version control
+
+ls
+git remote add 
+git remote -v  --> urls
+git pull name master
+--> private org will not permit to pull or push the data
+-->switch your network to anthor (by hotspot)
+
+
+--> how to update the data in same file? 
+1. git add data.txt
+2. git commit -m 'third commit'
+3. git log
+4. git push -u pythonprogram(repositary Name)
+5. git push -f --set-upstream pythonprogram(Repositatry name) master
+
+https://github.com/Anil-a431/Gitam-Python
+
+==>> mkdir 
+==>> cd Desktop/
+==>> ls
+ ==>> touch file1.txt
+ ==>> echo 'rrakeshreddy96@gmail.com' > file1.txt --> for single line data
+==>> cat file1.txt
+==>> rm -f <filename.txt> ==>> to delete the txt file
+==>> nano file1.txt ==>> to add multiple lines of code
+
+ 
